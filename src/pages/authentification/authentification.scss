@@ -1,0 +1,49 @@
+.pageAuthentificationContent {
+    display: block;
+    overflow: hidden;
+    background-color: rgb(48, 60, 76);
+    text-align: center;
+    color: white;
+}
+
+.pageAuthentificationContainerSlide {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    height: calc(100% - 107px);
+}
+
+.toolbar-background {
+    background-color: rgb(48, 60, 76);
+}
+
+.toolbar-title,
+.bar-button {
+    color: white!important;
+}
+
+.segment-ios .segment-button.segment-activated {
+    background-color: white!important;
+    color: rgb(48, 60, 76)!important;
+}
+
+.segment-button {
+    border-color: white!important;
+    color: white!important;
+    height: auto!important;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+
+.segment-button > .buttonTitle {
+    height: 22px;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.segment-button > .buttonIcon > .icon {
+    height: 40px;
+    line-height: 40px;
+    font-size: 36px;
+}

@@ -1,0 +1,94 @@
+<ion-content class="pageLandingContent" padding>
+	<div class="pageLandingContainerLogo">
+        <div class="logoTitle">
+            ITNP-Chat
+        </div>
+        
+        <div class="logoSlogan">
+            Hybride Chat-Applikation
+        </div>
+    </div>
+    
+    <div class="pageLandingContainerSlide">
+        <ion-slides pager>
+            <ion-slide>
+                <ion-icon class="slideContentIcon" name="chatboxes"></ion-icon>
+                
+                <div class="slideContentMeta">
+                    <div class="metaTitle">
+                        Vielfältig verwendbar
+                    </div>
+                    
+                    <div class="metaDesc">
+                        Sende oder Empfange Nachrichten, Bilder & Videos, Dateien, Orte, Sprachaufnahmen, etc., erstelle Gruppen oder ordne dich selber einer vordefinierten Kategorie zu.
+                    </div>
+                </div>
+            </ion-slide>
+            
+            <ion-slide class="slideContent">
+                <ion-icon class="slideContentIcon" name="lock"></ion-icon>
+                
+                <div class="slideContentMeta">
+                    <div class="metaTitle">
+                        Sicheres Chatten
+                    </div>
+                    
+                    <div class="metaDesc">
+                        Alle gesendeten Nachrichten werden durch ein asymmetrisches Kryptographieverfahren verschlüsselt und nach einer bestimmten Zeit für immer vom Server gelöscht.
+                    </div>
+                </div>
+            </ion-slide>
+            
+            <ion-slide class="slideContent">
+                <ion-icon class="slideContentIcon" name="cloud"></ion-icon>
+                
+                <div class="slideContentMeta">
+                    <div class="metaTitle">
+                        Lokaler Server
+                    </div>
+                    
+                    <div class="metaDesc">
+                        Durch bestimmte Dynamik ist es möglich einen eigenen Server lokal zu installieren. Somit gelangen verschlüsselte Nachrichten nie in falsche Hände.
+                    </div>
+                </div>
+            </ion-slide>
+            
+            <ion-slide class="slideContent">
+                <ion-icon class="slideContentIcon" name="cog"></ion-icon>
+                
+                <div class="slideContentMeta">
+                    <div class="metaTitle">
+                        Erweiterte Dynamik
+                    </div>
+                    
+                    <div class="metaDesc">
+                        Die Applikation enthält dynamische Variablen welche bestimmte Pfade zu Bildern, Farben, Schriftarten oder Größen enthält. Gestalte Sie deinen Wünschen nach!
+                    </div>
+                </div>
+            </ion-slide>
+            
+            <ion-slide class="slideContent">
+                <ion-icon class="slideContentIcon" name="flash"></ion-icon>
+                
+                <div class="slideContentMeta">
+                    <div class="metaTitle">
+                        Echtzeitige Datenübertragung
+                    </div>
+                    
+                    <div class="metaDesc">
+                        Echtzeitig werden die Daten zum Server und weiter zum Empfänger gesendet. Das NODE.JS-Modul SOCKET.IO ermöglicht eine professionelle Datenübertragung.
+                    </div>
+                </div>
+            </ion-slide>
+        </ion-slides>
+    </div>
+
+    <div class="pageLandingContainerButtons">
+        <button ion-button block round outline color="light" (click)="pageLandingOpenAuthentification('registration')">Konto erstellen</button>	
+        <button ion-button block round color="light" (click)="pageLandingOpenAuthentification('login')">Anmelden</button>
+        
+        <div class="buttonsFooter">
+            &copy; 2017 IT-NetProjects GmbH
+        </div>
+    </div>
+</ion-content>
